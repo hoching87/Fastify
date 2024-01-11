@@ -1,0 +1,26 @@
+{
+  "name": "fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/auth": "^4.4.0",
+    "@fastify/bearer-auth": "^9.3.0",
+    "@fastify/jwt": "^8.0.0",
+    "@fastify/multipart": "^8.1.0",
+    "@fastify/mysql": "^4.2.0",
+    "@fastify/postgres": "^5.2.2",
+    "bcrypt": "^5.1.1",
+    "fastify": "^4.25.2",
+    "fastify-plugin": "^4.5.1",
+    "nodemon": "^3.0.2",
+    "pg": "^8.11.3"
+  },
+  "type": "module"
+}
