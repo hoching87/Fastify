@@ -29,7 +29,7 @@ fastify.register(postgres, {
 fastify.register(publicRoute);
 fastify.register(userRoute, { prefix: "user/" });
 
-fastify.listen({ host: 0.0.0.0, port: 10000 }, function (err, address) {
+fastify.listen({ host: "0.0.0.0", port: 10000 }, function (err, address) {
 	if (err) {
 		fastify.log.error(err);
 		process.exit(1);
