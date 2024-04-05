@@ -1,0 +1,6 @@
+{"level":30,"time":1711536859761,"pid":28620,"hostname":"LAPTOP-S5BQMMRM","msg":"Server listening at http://[::1]:3000"}
+{"level":30,"time":1711536859762,"pid":28620,"hostname":"LAPTOP-S5BQMMRM","msg":"Server listening at http://127.0.0.1:3000"}
+{"level":30,"time":1711536868367,"pid":28620,"hostname":"LAPTOP-S5BQMMRM","reqId":"req-1","req":{"method":"GET","url":"/user/","hostname":"localhost:3000","remoteAddress":"::1","remotePort":60991},"msg":"incoming request"}
+{"level":30,"time":1711536868377,"pid":28620,"hostname":"LAPTOP-S5BQMMRM","reqId":"req-1","res":{"statusCode":200},"responseTime":9.077600002288818,"msg":"request completed"}
+{"level":30,"time":1711536869676,"pid":28620,"hostname":"LAPTOP-S5BQMMRM","reqId":"req-2","req":{"method":"GET","url":"/user/","hostname":"localhost:3000","remoteAddress":"::1","remotePort":60991},"msg":"incoming request"}
+{"level":30,"time":1711536869680,"pid":28620,"hostname":"LAPTOP-S5BQMMRM","reqId":"req-2","res":{"statusCode":200},"responseTime":3.692099928855896,"msg":"request completed"}
